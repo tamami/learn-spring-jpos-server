@@ -99,3 +99,2123 @@
 2016-08-25 14:35:33 DEBUG App:27 - Server siap menerima koneksi pada port [15243]
 2016-08-25 15:39:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
 2016-08-25 15:39:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:22:07 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-02 09:22:07 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-02 09:22:07 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-09-02 09:22:07 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@205fd6f1: startup date [Fri Sep 02 09:22:07 WIB 2016]; root of context hierarchy
+2016-09-02 09:22:07 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@205fd6f1: org.springframework.beans.factory.support.DefaultListableBeanFactory@7216ad02: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method lab.aikibo.config.AppConfig.server()
+2016-09-02 09:22:07 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced lab.aikibo.config.AppConfig; enhanced class name is: lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$76df5732
+2016-09-02 09:22:07 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'lab.aikibo.config.AppConfig' with enhanced class 'lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$76df5732'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-09-02 09:22:07 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 09:22:07 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@2ec1431b]
+2016-09-02 09:22:08 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1d04a6d6]
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:745 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7216ad02: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,server]; root of factory hierarchy
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-09-02 09:22:08 DEBUG SpringFactoriesLoader:89 - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:297 - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:297 - Found bean property 'order' of type [int]
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$76df5732]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$76df5732]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:297 - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'server'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'server'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.services.ServerImpl]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.services.ServerImpl]
+2016-09-02 09:22:08 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'server'
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.EventListenerMethodProcessor
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.DefaultEventListenerFactory
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$76df5732
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$EnhancedConfigurationBeanPostProcessor
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.services.ServerImpl
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.core.env.StandardEnvironment
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Properties
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Collections$UnmodifiableMap
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassParser$ImportStack
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.support.DelegatingMessageSource
+2016-09-02 09:22:08 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.SimpleApplicationEventMulticaster
+2016-09-02 09:22:08 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6686acf6]
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-09-02 09:22:08 DEBUG AnnotationConfigApplicationContext:362 - Publishing event in org.springframework.context.annotation.AnnotationConfigApplicationContext@205fd6f1: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@205fd6f1: startup date [Fri Sep 02 09:22:07 WIB 2016]; root of context hierarchy]
+2016-09-02 09:22:08 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-09-02 09:22:08 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-09-02 09:22:08 DEBUG PropertySourcesPropertyResolver:91 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2016-09-02 09:22:08 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'server'
+2016-09-02 09:22:08 DEBUG App:27 - Server siap menerima koneksi pada port [15243]
+2016-09-02 09:23:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:23:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:24:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:24:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:24:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:24:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:25:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:25:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:26:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:26:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:27:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:27:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:28:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:28:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:29:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:29:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:29:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:29:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:30:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:30:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:31:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:31:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:32:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:32:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:33:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:33:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:34:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:34:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:34:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:34:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:35:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:35:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:36:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:36:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:37:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:37:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:38:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:38:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:39:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:39:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:39:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:39:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:40:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:40:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:41:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:41:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:42:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:42:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:43:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:43:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:44:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:44:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:44:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:44:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:45:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:45:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:46:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:46:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:47:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:47:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:48:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:48:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:49:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:49:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:49:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:49:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:50:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:50:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:51:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:51:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:52:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:52:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:53:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:53:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:54:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:54:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:54:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:54:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:55:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:55:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:56:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:56:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:57:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:57:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:58:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:58:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:59:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:59:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 09:59:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 09:59:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:00:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:00:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:01:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:01:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:02:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:02:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:03:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:03:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:04:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:04:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:04:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:04:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:05:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:05:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:06:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:06:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:07:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:07:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:08:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:08:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:09:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:09:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:09:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:09:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:10:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:10:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:11:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:11:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:12:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:12:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:13:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:13:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:14:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:14:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:14:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:14:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:15:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:15:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:16:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:16:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:17:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:17:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:18:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:18:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:19:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:19:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:19:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:19:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:20:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:20:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:21:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:21:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:22:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:22:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:23:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:23:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:24:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:24:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:24:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:24:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:25:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:25:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:26:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:26:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:27:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:27:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:28:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:28:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:29:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:29:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:29:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:29:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:30:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:30:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:31:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:31:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:32:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:32:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:33:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:33:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:34:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:34:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:34:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:34:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:35:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:35:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:36:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:36:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:37:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:37:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:38:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:38:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:39:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:39:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:39:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:39:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:40:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:40:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:41:31 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:41:31 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:42:21 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:42:21 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:43:11 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:43:11 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:44:01 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:44:01 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:44:51 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:44:51 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 10:45:41 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 10:45:41 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:26:00 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:26:00 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:26:50 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:26:50 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:27:40 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:27:40 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:28:30 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:28:30 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:29:20 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:29:20 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:30:10 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:30:10 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:31:00 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:31:00 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:31:50 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:31:50 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:32:40 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:32:40 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:33:30 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:33:30 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:34:20 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:34:20 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:35:10 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:35:10 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:36:00 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:36:00 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:36:50 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:36:50 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:37:40 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:37:40 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:38:30 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:38:30 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:39:20 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:39:20 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:40:10 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:40:10 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:41:00 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:41:00 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:41:50 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:41:50 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:05 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-02 12:50:05 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-02 12:50:05 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-09-02 12:50:05 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: startup date [Fri Sep 02 12:50:05 WIB 2016]; root of context hierarchy
+2016-09-02 12:50:05 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: org.springframework.beans.factory.support.DefaultListableBeanFactory@333851b9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method lab.aikibo.config.AppConfig.server()
+2016-09-02 12:50:05 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced lab.aikibo.config.AppConfig; enhanced class name is: lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99
+2016-09-02 12:50:05 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'lab.aikibo.config.AppConfig' with enhanced class 'lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 12:50:05 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@67b400e3]
+2016-09-02 12:50:05 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2d288f67]
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:745 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@333851b9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,server]; root of factory hierarchy
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG SpringFactoriesLoader:89 - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:297 - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:297 - Found bean property 'order' of type [int]
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:297 - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'server'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'server'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.services.ServerImpl]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.services.ServerImpl]
+2016-09-02 12:50:05 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'server'
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.EventListenerMethodProcessor
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.DefaultEventListenerFactory
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$EnhancedConfigurationBeanPostProcessor
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.services.ServerImpl
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.core.env.StandardEnvironment
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Properties
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Collections$UnmodifiableMap
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassParser$ImportStack
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.support.DelegatingMessageSource
+2016-09-02 12:50:05 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.SimpleApplicationEventMulticaster
+2016-09-02 12:50:05 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1aa69bbc]
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-09-02 12:50:05 DEBUG AnnotationConfigApplicationContext:362 - Publishing event in org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: startup date [Fri Sep 02 12:50:05 WIB 2016]; root of context hierarchy]
+2016-09-02 12:50:05 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-09-02 12:50:05 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-09-02 12:50:05 DEBUG PropertySourcesPropertyResolver:91 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2016-09-02 12:50:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'server'
+2016-09-02 12:50:05 DEBUG App:27 - Server siap menerima koneksi pada port [15243]
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:14 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:14 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:14 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:50:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:50:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:50:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:15 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:15 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:15 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 12:59:16 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 12:59:16 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 12:59:16 DEBUG App:30 - with MTI 1800
+2016-09-02 14:07:47 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-02 14:07:47 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-02 14:07:47 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-09-02 14:07:47 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4cc35a9e: startup date [Fri Sep 02 14:07:47 WIB 2016]; root of context hierarchy
+2016-09-02 14:07:47 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@4cc35a9e: org.springframework.beans.factory.support.DefaultListableBeanFactory@1c891a04: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method lab.aikibo.config.AppConfig.server()
+2016-09-02 14:07:47 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced lab.aikibo.config.AppConfig; enhanced class name is: lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$a9a9c38b
+2016-09-02 14:07:47 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'lab.aikibo.config.AppConfig' with enhanced class 'lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$a9a9c38b'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:07:47 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@624f05b6]
+2016-09-02 14:07:47 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@ceee776]
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:745 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1c891a04: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,server]; root of factory hierarchy
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG SpringFactoriesLoader:89 - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:297 - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:297 - Found bean property 'order' of type [int]
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$a9a9c38b]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$a9a9c38b]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:297 - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'server'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'server'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.services.ServerImpl]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.services.ServerImpl]
+2016-09-02 14:07:47 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'server'
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.EventListenerMethodProcessor
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.DefaultEventListenerFactory
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$a9a9c38b
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$EnhancedConfigurationBeanPostProcessor
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.services.ServerImpl
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.core.env.StandardEnvironment
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Properties
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Collections$UnmodifiableMap
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassParser$ImportStack
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.support.DelegatingMessageSource
+2016-09-02 14:07:47 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.SimpleApplicationEventMulticaster
+2016-09-02 14:07:47 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@795673a3]
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-09-02 14:07:47 DEBUG AnnotationConfigApplicationContext:362 - Publishing event in org.springframework.context.annotation.AnnotationConfigApplicationContext@4cc35a9e: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@4cc35a9e: startup date [Fri Sep 02 14:07:47 WIB 2016]; root of context hierarchy]
+2016-09-02 14:07:47 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-09-02 14:07:47 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-09-02 14:07:47 DEBUG PropertySourcesPropertyResolver:91 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2016-09-02 14:07:47 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'server'
+2016-09-02 14:20:00 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-02 14:20:00 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-02 14:20:00 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-09-02 14:20:00 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: startup date [Fri Sep 02 14:20:00 WIB 2016]; root of context hierarchy
+2016-09-02 14:20:00 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: org.springframework.beans.factory.support.DefaultListableBeanFactory@333851b9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method lab.aikibo.config.AppConfig.server()
+2016-09-02 14:20:00 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced lab.aikibo.config.AppConfig; enhanced class name is: lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99
+2016-09-02 14:20:00 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'lab.aikibo.config.AppConfig' with enhanced class 'lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:20:00 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@67b400e3]
+2016-09-02 14:20:00 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2d288f67]
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:745 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@333851b9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,server]; root of factory hierarchy
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG SpringFactoriesLoader:89 - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:297 - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:297 - Found bean property 'order' of type [int]
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:297 - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'server'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'server'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:265 - Getting BeanInfo for class [lab.aikibo.services.ServerImpl]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [lab.aikibo.services.ServerImpl]
+2016-09-02 14:20:00 DEBUG CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'server'
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.EventListenerMethodProcessor
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.DefaultEventListenerFactory
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.config.AppConfig$$EnhancerBySpringCGLIB$$631edc99
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$EnhancedConfigurationBeanPostProcessor
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class lab.aikibo.services.ServerImpl
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.core.env.StandardEnvironment
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Properties
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Collections$UnmodifiableMap
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassParser$ImportStack
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.support.DelegatingMessageSource
+2016-09-02 14:20:00 DEBUG EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.SimpleApplicationEventMulticaster
+2016-09-02 14:20:00 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1aa69bbc]
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-09-02 14:20:00 DEBUG AnnotationConfigApplicationContext:362 - Publishing event in org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@1c395605: startup date [Fri Sep 02 14:20:00 WIB 2016]; root of context hierarchy]
+2016-09-02 14:20:00 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-09-02 14:20:00 DEBUG PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-09-02 14:20:00 DEBUG PropertySourcesPropertyResolver:91 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2016-09-02 14:20:00 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'server'
+2016-09-02 14:20:00 DEBUG App:30 - Server siap menerima koneksi pada port [15243]
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:08 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:08 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:08 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 14:20:09 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 14:20:09 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 14:20:09 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:26 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:26 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:26 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:09:27 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:09:27 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:09:27 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:32 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:32 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:32 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800
+2016-09-02 15:17:33 DEBUG App:16 - Server menerima koneksi dari [127.0.0.1]
+2016-09-02 15:17:33 DEBUG App:29 - Accepting Network Management Request
+2016-09-02 15:17:33 DEBUG App:30 - with MTI 1800

@@ -27,6 +27,7 @@ public class ProcessRequest implements ISORequestListener {
 
   private void acceptNetworkMsg(ISOSource isoSrc, ISOMsg isoMsg) throws ISOException, IOException {
     App.getLogger().debug("Accepting Network Management Request");
+    App.getLogger().debug("with MTI " + isoMsg.getMTI());
     ISOMsg reply = (ISOMsg) isoMsg.clone();
     reply.setMTI("1810");
     reply.set(39, "00");
